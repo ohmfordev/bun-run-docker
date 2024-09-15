@@ -51,4 +51,4 @@ docker buildx build -t ohmfordevdocker/fe.react.bun:0.1 . --push
 6.ติดตั้ง Docker 
 7.ทำการ Login 
 
-8. รันคำสั่ง ohmfordevdocker/fe.react.bun:0.1
+8. รันคำสั่ง sudo docker run -d -p 8119:8119 --name product-app ohmfordevdocker/fe.react.bun:0.1
